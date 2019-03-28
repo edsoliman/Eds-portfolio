@@ -1,0 +1,195 @@
+/* {
+    box-sizing: border-box;
+}*/
+
+/*home page*/
+.logo {
+    margin: 100px auto 0 auto;
+    padding: 15px;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.top-mid-border {
+    border-right: 2px solid black;
+    width: 50%;
+    height: 100px;
+}
+
+.home-container{
+    width: 90%;
+    border-top: 2px solid black;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.name-headline-container {
+   width: 100%;
+   border-bottom: 2px solid black;
+   padding: 50px 0;
+}
+
+li {
+    display: inline-block;
+    width: 110px;
+    border-left: 2px solid black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+ul {
+    width: fit-content;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.bottom-mid-border {
+    border-right: 2px solid black;
+    width: calc(50% + 1px);
+    height: 125px;
+}
+
+.home-button {
+    font-size: 16px;
+    border-radius: 5%;
+    padding: 15px;
+    border: none;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+/*projects page*/
+.projects-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.projects-header {
+    margin: 75px 0 0 30px;
+    text-decoration: underline;
+    width: fit-content;
+    
+}
+
+/*for functionality for wireframe - will use js in full*/
+.home-x-button-projects {
+    position: absolute;
+    right: 17%;
+    top: 20px;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.project-text {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.5em;
+}
+
+.projects-button {
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+/*about page*/
+.about-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.about-header {
+    margin: 75px 0 0 30px;
+    text-decoration: underline;
+}
+
+.home-x-button-about {
+    position: absolute;
+    right: 17%;
+    top: 20px;
+}
+
+.about-text {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.5em;
+}
+
+/*contact page*/
+.contact-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.contact-header {
+    margin: 75px 0 0 30px;
+    text-decoration: underline;
+}
+
+.home-x-button-contact {
+    position: absolute;
+    top: 20px;
+    right: 17%;
+}
+
+.contact-text {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.5em;
+}
+
+
+/*ALL responsive design*/ 
+@media screen and (max-width: 530px) {
+    li {
+        display: block;
+        border-left: none;
+        border-top: 2px solid black;
+    }
+}
+
+
+@media screen and (max-width: 651px) {
+    li:first-child {
+        border-top: none;
+    }
+
+    .about-container, .projects-container, .contact-container {
+        width: 95%;
+    }
+
+    .home-x-button-about, .home-x-button-contact, .home-x-button-projects {
+        position: absolute;
+        right: 6%;
+        top: 20px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .home-container {
+        width: 55%;
+    }
+}
+
