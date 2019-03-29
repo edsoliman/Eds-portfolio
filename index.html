@@ -8,8 +8,8 @@
     </head>
     
     <body>
-      <!--Home Page-->
         <main>
+            <!--Home Page-->
             <div id="main_container_home" class="main-container" role="home page">
                 <h1 class="logo">ES</h1>
                 <div class="top-mid-border">
@@ -25,15 +25,59 @@
                     <div class="nav-container">
                         <nav>
                             <ul>
-                                <li><a href="index.html"><button class="home-button" type="button">HOME</button></a></li>
-                                <li><a href="about.html"><button class="home-button" type="button">ABOUT</button></a></li>
-                                <li><a href="projectspage.html"><button class="home-button" type="button">PROJECTS</button></a></li>
-                                <li><a href="contact.html"><button class="home-button" type="button">CONTACT</button></a></li>
+                                <li><button id="about_button" class="home-button" type="button">ABOUT</button></li>
+                                <li><button id="projects_button" class="home-button" type="button">PROJECTS</button></li>
+                                <li><button id="contact_button" class="home-button" type="button">CONTACT</button></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             <div>
+
+            <!--About Page-->
+            <div style display="none" class="display-about" id="main_container_about" role="about page"> 
+                <div class="about-container" role="about">
+                    <h1 class="about-header">ABOUT</h1>
+                    <div class="home-x-button-about">
+                        <a href="index.html"><button type="button">X</button></a>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-description">As a full stack developer and *graduate of the Thinkful bootcamp*, I enjoy the opportunity development gives me to apply my knowledge in solving real world problems with technology. Whether it's a bold new application that's destined to be the next Google or a simple website re-design, I'm here to aid you in the process. I'm well versed in HTML5, CSS, JavaScript/jQuery...Outside of the Thinkful curriculum, I've been working on developing a fitness application with my roommate who's also a developer. As you may have guessed, I'm a big health & fitness enthusiast. When I'm not coding, you can probably find me at Gold's Gym Venice trying to become the next Arnold Schwarzenegger. I also enjoy reading, connecting with others and spreading positivity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Projects Page-->
+            <div style display="none" class="display-projects" id="main_container_projects" role="projects page"> 
+                <div class="projects-container" role="projects">
+                    <h1 class="projects-header">PROJECTS</h1>
+                    <div class="home-x-button-projects">
+                        <a href="index.html"><button type="button">X</button></a>
+                    </div>
+                    <img src="assets/images/quizapp.png" alt="quiz app home page">
+                    <div class="project-text">
+                        <h2>Health & Fitness Quiz</h2>
+                        <p class="project-description">*Insert HTML5, CSS & JS logo here*</p>
+                        <p class="project-description">A simple quiz application designed to test your health & fitness knowledge. Don't worry, it's gluten-free.</p>
+                        <a target="_blank" href="https://esoliman0325.github.io/quiz-app/"><button class="projects-button" type="button">View Project</button></a>
+                        <a target="_blank" href="https://github.com/esoliman0325/quiz-app"><button class="projects-button" type="button">View Code</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Contact Page-->
+            <div style display="none" class="display-contact" id="main_container_contact" role="contact page"> 
+                <div class="contact-container" role="contact information">
+                    <h1 class="contact-header">CONTACT</h1>
+                    <div class="home-x-button-contact">
+                        <a href="index.html"><button type="button">X</button></a>
+                    </div>
+                    <div class="contact-text">
+                        <p class="contact-description">Please feel free to contact me with business inquiries or opportunities via any of the below links:</p>
+                        <p>*e-mail, LI, GitHub, etc.*</p>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <div class="footer" role="footer">
@@ -41,5 +85,6 @@
         </div>
       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     </body>
 <html>
