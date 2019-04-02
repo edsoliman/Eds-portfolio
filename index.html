@@ -5,18 +5,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-height, intial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards" rel="stylesheet">
     </head>
     
     <body>
         <main>
             <!--Home Page-->
             <div id="main_container_home" class="main-container" role="home page">
-                <h1 class="logo">ES</h1>
+                <div class="logo">
+                    <h1 class="logo-text">ES</h1>
+                </div>
                 <div class="top-mid-border">
                 </div>
                 <div class="home-container" id="home_container">
                     <div id="name_headline_container" class="name-headline-container" role="name & headline">
-                        <h2>Ed Soliman</h2>
+                        <h2>ED SOLIMAN</h2>
                         <p>A fullstack developer that's here to help turn your ideas into reality via the power of the web.</p>
                     </div>
                     <div class="bottom-mid-border">
@@ -27,7 +30,7 @@
                             <ul>
                                 <li><button id="about_button" class="home-button" type="button">ABOUT</button></li>
                                 <li><button id="projects_button" class="home-button" type="button">PROJECTS</button></li>
-                                <li><button id="contact_button" class="home-button" type="button">CONTACT</button></li>
+                                <li><button id="contact_button" class="home-button last" type="button">CONTACT</button></li>
                             </ul>
                         </nav>
                     </div>
@@ -39,10 +42,10 @@
                 <div class="about-container" role="about">
                     <h1 class="about-header">ABOUT</h1>
                     <div class="home-x-button-about">
-                        <a href="index.html"><button type="button">X</button></a>
+                        <a href="index.html"><button class="x-button" type="button">X</button></a>
                     </div>
                     <div class="about-text">
-                        <p class="about-description">As a full stack developer and *graduate of the Thinkful bootcamp*, I enjoy the opportunity development gives me to apply my knowledge in solving real world problems with technology. Whether it's a bold new application that's destined to be the next Google or a simple website re-design, I'm here to aid you in the process. I'm well versed in HTML5, CSS, JavaScript/jQuery...Outside of the Thinkful curriculum, I've been working on developing a fitness application with my roommate who's also a developer. As you may have guessed, I'm a big health & fitness enthusiast. When I'm not coding, you can probably find me at Gold's Gym Venice trying to become the next Arnold Schwarzenegger. I also enjoy reading, connecting with others and spreading positivity.</p>
+                        <p class="about-description">As a full stack developer and graduate of the Thinkful bootcamp, I enjoy the opportunity development gives me to apply my knowledge in solving real world problems with technology. Whether it's a bold new application that's destined to be the next Google or a simple website re-design, I'm here to aid you in the process. I'm well versed in HTML, CSS and JavaScript/jQuery. Outside of the Thinkful curriculum, I've been working on developing a fitness application with my roommate and business partner who's also a developer. As you may have guessed, I'm a big health & fitness enthusiast. When I'm not coding, you can probably find me at Gold's Gym Venice trying to become the next Arnold Schwarzenegger. I also enjoy reading, connecting with others and spreading positivity.</p>
                     </div>
                 </div>
             </div>
@@ -52,12 +55,16 @@
                 <div class="projects-container" role="projects">
                     <h1 class="projects-header">PROJECTS</h1>
                     <div class="home-x-button-projects">
-                        <a href="index.html"><button type="button">X</button></a>
+                        <a href="index.html"><button class="x-button" type="button">X</button></a>
                     </div>
                     <img src="assets/images/quizapp.png" alt="quiz app home page">
                     <div class="project-text">
                         <h2>Health & Fitness Quiz</h2>
-                        <p class="project-description">*Insert HTML5, CSS & JS logo here*</p>
+                        <div class="logos">
+                            <img class="html-logo" src="assets/icons/html5.png" alt="html5 logo">
+                            <img class="css3-logo" src="assets/icons/CSS3.png" alt="CSS3 logo">
+                            <img class="js-logo" src="assets/icons/JS.png" alt="JS logo">
+                        </div>
                         <p class="project-description">A simple quiz application designed to test your health & fitness knowledge. Don't worry, it's gluten-free.</p>
                         <a target="_blank" href="https://esoliman0325.github.io/quiz-app/"><button class="projects-button" type="button">View Project</button></a>
                         <a target="_blank" href="https://github.com/esoliman0325/quiz-app"><button class="projects-button" type="button">View Code</button></a>
@@ -70,11 +77,13 @@
                 <div class="contact-container" role="contact information">
                     <h1 class="contact-header">CONTACT</h1>
                     <div class="home-x-button-contact">
-                        <a href="index.html"><button type="button">X</button></a>
+                        <a href="index.html"><button class="x-button" type="button">X</button></a>
                     </div>
                     <div class="contact-text">
-                        <p class="contact-description">Please feel free to contact me with business inquiries or opportunities via any of the below links:</p>
-                        <p>*e-mail, LI, GitHub, etc.*</p>
+                        <p class="contact-description">Please feel free to contact me with business inquiries, opportunities or dope memes via any of the below links:</p>
+                        <span><a href="mailto:e.georgesoliman@gmail.com">E.georgesoliman@gmail.com</a> |</span>
+                        <span><a href="https://www.linkedin.com/in/emad-ed-soliman-9a327963/">LinkedIn</a> |</span>
+                        <span><a href="https://github.com/esoliman0325">GitHub</a></span>
                     </div>
                 </div>
             </div>
