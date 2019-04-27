@@ -4,7 +4,7 @@
 
 /*All*/
 html {
-    background: url('/Projects/Eds-portfolio/assets/images/backgroundimg4.jpg');
+    background: url('assets/images/backgroundimg4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,6 +144,10 @@ img {
     width: 80%;
     margin: 20px auto;
     border-radius: 1%;
+}
+
+.target-event-photo {
+    margin-top: 100px;
 }
 
 .project-text {
