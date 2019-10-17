@@ -165,7 +165,7 @@ img {
     height: 60px;
 }
 
-.css3-logo, .js-logo, .html-logo {
+.css3-logo, .js-logo, .html-logo, .react-logo, .node-logo, .postgreSQL-logo {
     display: inline-block;
     width: 28px;
     height: 30px;
